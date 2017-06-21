@@ -1,0 +1,134 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+body {
+  padding: 25px;
+}
+
+
+/* TABLA DIV */
+.divTable{
+  display: table;
+  width: 100%;
+}
+.divTableRow {
+  display: table-row;
+
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+.divTableCell, .divTableHead {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+}
+
+/* otros fixes*/
+.divTableCell.tbl-header {
+  background-color: rgba(0,0,0,.5);
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.divTableCell.tbl-header-time {
+  background-color: rgba(0,0,0,.5);
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.tableMe {
+  margin: 0 0 0 0 !important;
+}
+/* //TABLA DIV */
+
+/** SELCT **/
+.select-style {
+  padding: 0;
+  margin: 0;
+  border: 0 none transparent;
+  width: 100%;
+  border-radius: 0;
+  overflow: hidden;
+  background-color: #fff;
+
+  background: #fff url("http://explore.bl.uk/primo_library/libweb/images/icon_arrow_sendTo.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+.aa {
+  background-color: #b8d4e2;
+}
+.aaa {
+  background-color: #088da5;
+}
+.aawe {
+  background-color: #ded5f9;
+}
+.aaawe {
+  background-color: #776a87;
+}
+.na {
+  background-color: #cacaca;
+}
+/** //SELCT **/

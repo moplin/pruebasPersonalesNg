@@ -1,0 +1,88 @@
+<div class="divTable">
+    <div class="divTableBody">
+        <div class="divTableRow">
+            <div class="divTableCell tbl-header-time"">H</div>
+            <div class="divTableCell tbl-header" ng-repeat="d in vm.days " >{{d}}</div>
+            <div class="divTableCell tbl-header-time">CP</div>
+        </div>
+    </div>
+    <div class="divTableBody" ng-repeat="x in 24 | range ">
+        <div class="divTableRow">
+            <div class="divTableCell" align="center" >{{$index}}:00</div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[0].time_pricing[$index].code}}">
+                <div class="select-style" ng-class="selectClass(vm.data.day_pricing[0].time_pricing[$index].value)">
+                    <select ng-model="vm.data.day_pricing[0].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[0].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(0,$index)">
+                        <option value="na">NA</option>
+                        <option value="aa">AA</option>
+                        <option value="aaa">AAA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[1].time_pricing[$index].code}}">
+                <div class="select-style" ng-class="selectClass(vm.data.day_pricing[1].time_pricing[$index].value)">
+                    <select ng-model="vm.data.day_pricing[1].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[1].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(1,$index)">
+                        <option value="na">NA</option>
+                        <option value="aa">AA</option>
+                        <option value="aaa">AAA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[2].time_pricing[$index].code}}">
+                <div class="select-style"  ng-class="selectClass(vm.data.day_pricing[2].time_pricing[$index].value)">
+                    <select ng-model="vm.data.day_pricing[2].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[2].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(2,$index)">
+                        <option value="na">NA</option>
+                        <option value="aa">AA</option>
+                        <option value="aaa">AAA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[3].time_pricing[$index].code}}">
+                <div class="select-style" ng-class="selectClass(vm.data.day_pricing[3].time_pricing[$index].value)">
+                    <select ng-model="vm.data.day_pricing[3].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[3].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(3,$index)">
+                        <option value="na">NA</option>
+                        <option value="aa">AA</option>
+                        <option value="aaa">AAA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[4].time_pricing[$index].code}}">
+                <div class="select-style" ng-class="selectClass(vm.data.day_pricing[4].time_pricing[$index].value)">
+                    <select ng-model="vm.data.day_pricing[4].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[4].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(4,$index)">
+                        <option value="na">NA</option>
+                        <option value="aa">AA</option>
+                        <option value="aaa">AAA</option>
+                   </select>
+                </div>
+            </div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[5].time_pricing[$index].code}}">
+                <div class="select-style" ng-class="selectClass(vm.data.day_pricing[5].time_pricing[$index].value)">
+                    <select ng-model="vm.data.day_pricing[5].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[5].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(5,$index)">
+                        <option value="na">NA</option>
+                        <option value="aawe">AA</option>
+                        <option value="aaawe">AAA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="divTableCell" id="id-fm-{{vm.data.day_pricing[6].time_pricing[$index].code}}">
+                <div class="select-style" ng-class="selectClass(vm.data.day_pricing[6].time_pricing[$index].value)">
+                    <select
+                            ng-model="vm.data.day_pricing[6].time_pricing[$index].value" id="id-fm-sl-{{vm.data.day_pricing[6].time_pricing[$index].code}}"
+                            ng-change="vm.changePrice(6,$index)">
+                        <option value="na">NA</option>
+                        <option value="aawe">AA</option>
+                        <option value="aaawe">AAA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="divTableCell">
+                <img ng-click="cpyWeek($index)" src="http://www.htc.com/uploadedimages/common/ditahowto/site_us/htc-one-m9-sprint/GUID-F42EE54A-A895-427E-97B7-9B006A0AE561-web.png">
+            </div>
+        </div>
+    </div>
+</div>

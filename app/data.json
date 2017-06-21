@@ -1,0 +1,1047 @@
+{
+  "day_pricing": [
+    {
+      "day": "Monday",
+      "time_pricing": [
+        {
+          "code": "M0",
+          "hour": 0,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M8",
+          "hour": 8,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M9",
+          "hour": 9,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M10",
+          "hour": 10,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M11",
+          "hour": 11,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M12",
+          "hour": 12,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M13",
+          "hour": 13,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M14",
+          "hour": 14,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M15",
+          "hour": 15,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M16",
+          "hour": 16,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M17",
+          "hour": 17,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M18",
+          "hour": 18,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "M19",
+          "hour": 19,
+          "value": "aaa",
+          "price": 0
+        },
+        {
+          "code": "M20",
+          "hour": 20,
+          "value": "aaa",
+          "price": 0
+        },
+        {
+          "code": "M21",
+          "hour": 21,
+          "value": "aaa",
+          "price": 0
+        },
+        {
+          "code": "M22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "M23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "time_pricing": [
+        {
+          "code": "T0",
+          "hour": 0,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T8",
+          "hour": 8,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "T9",
+          "hour": 9,
+          "value": "aa",
+          "price": 0
+        },
+        {
+          "code": "T10",
+          "hour": 10,
+          "value": "aaa",
+          "price": 0
+        },
+        {
+          "code": "T11",
+          "hour": 11,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T12",
+          "hour": 12,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T13",
+          "hour": 13,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T14",
+          "hour": 14,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T15",
+          "hour": 15,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T16",
+          "hour": 16,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T17",
+          "hour": 17,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T18",
+          "hour": 18,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T19",
+          "hour": 19,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T20",
+          "hour": 20,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T21",
+          "hour": 21,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "T23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "time_pricing": [
+        {
+          "code": "W0",
+          "hour": 0,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W8",
+          "hour": 8,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W9",
+          "hour": 9,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W10",
+          "hour": 10,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W11",
+          "hour": 11,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W12",
+          "hour": 12,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W13",
+          "hour": 13,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W14",
+          "hour": 14,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W15",
+          "hour": 15,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W16",
+          "hour": 16,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W17",
+          "hour": 17,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W18",
+          "hour": 18,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W19",
+          "hour": 19,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W20",
+          "hour": 20,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W21",
+          "hour": 21,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "W23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "time_pricing": [
+        {
+          "code": "X0",
+          "hour": 0,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X8",
+          "hour": 8,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X9",
+          "hour": 9,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X10",
+          "hour": 10,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X11",
+          "hour": 11,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X12",
+          "hour": 12,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X13",
+          "hour": 13,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X14",
+          "hour": 14,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X15",
+          "hour": 15,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X16",
+          "hour": 16,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X17",
+          "hour": 17,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X18",
+          "hour": 18,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X19",
+          "hour": 19,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X20",
+          "hour": 20,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X21",
+          "hour": 21,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "X23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "time_pricing": [
+        {
+          "code": "F0",
+          "hour": 0,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F8",
+          "hour": 8,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F9",
+          "hour": 9,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F10",
+          "hour": 10,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F11",
+          "hour": 11,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F12",
+          "hour": 12,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F13",
+          "hour": 13,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F14",
+          "hour": 14,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F15",
+          "hour": 15,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F16",
+          "hour": 16,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F17",
+          "hour": 17,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F18",
+          "hour": 18,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F19",
+          "hour": 19,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F20",
+          "hour": 20,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F21",
+          "hour": 21,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "F23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "time_pricing": [
+        {
+          "code": "S0",
+          "hour": 0,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S8",
+          "hour": 8,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S9",
+          "hour": 9,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S10",
+          "hour": 10,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S11",
+          "hour": 11,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S12",
+          "hour": 12,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S13",
+          "hour": 13,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S14",
+          "hour": 14,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S15",
+          "hour": 15,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S16",
+          "hour": 16,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S17",
+          "hour": 17,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S18",
+          "hour": 18,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S19",
+          "hour": 19,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S20",
+          "hour": 20,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S21",
+          "hour": 21,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "S23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "time_pricing": [
+        {
+          "code": "D0",
+          "hour": 0,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D1",
+          "hour": 1,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D2",
+          "hour": 2,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D3",
+          "hour": 3,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D4",
+          "hour": 4,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D5",
+          "hour": 5,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D6",
+          "hour": 6,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D7",
+          "hour": 7,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D8",
+          "hour": 8,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D9",
+          "hour": 9,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D10",
+          "hour": 10,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D11",
+          "hour": 11,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D12",
+          "hour": 12,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D13",
+          "hour": 13,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D14",
+          "hour": 14,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D15",
+          "hour": 15,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D16",
+          "hour": 16,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D17",
+          "hour": 17,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D18",
+          "hour": 18,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D19",
+          "hour": 19,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D20",
+          "hour": 20,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D21",
+          "hour": 21,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D22",
+          "hour": 22,
+          "value": "na",
+          "price": 0
+        },
+        {
+          "code": "D23",
+          "hour": 23,
+          "value": "na",
+          "price": 0
+        }
+      ]
+    }
+  ]
+}
