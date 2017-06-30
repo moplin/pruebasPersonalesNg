@@ -1,22 +1,73 @@
-<div>
+
+<div id="field-sch">
+
+    <style>
+        .gtcard-time {
+            border: 1px solid #2d5031;
+            margin: 5px;
+            height: 80%;
+            background-color: chartreuse;
+            width: 78px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+
+        .gtcard {
+            border: 1px solid #2d5031;
+            margin: 5px;
+            height: 80%;
+            background-color: white;
+
+            /* text-align: center; */
+            /* vertical-align: middle; */
+            font-size: 20px;
+            border-radius: 4px;
+            padding: 6px;
+        }
+        #field-sch .md-secondary-container {
+            width: 220px;
+        }
+
+    </style>
+
     <md-toolbar>
         <div class="md-toolbar-tools">Lunes</div>
     </md-toolbar>
-
 <md-list>
-    <md-list-item class="md-3-line" ng-repeat="item in vm.messages" ng-style="{'background-color': $index % 2 === 0 ? 'white' : '#fafaca'}">
+    <md-list-item class="md-3-line" ng-repeat="calendar in range(vm.config.count+1) " ng-style="{'background-color': $index % 2 === 0 ? '#30aa3d' : '#47ff58'}">
         <div class="md-list-item-text">
             <div layout="row">
                 <div flex="10" layout-align="center center">
-                    8:00
+                    <div class="gtcard-time">{{vm.config.init + $index}}:00</div>
                 </div>
-                <div flex="80">
-                    <h3>{{item.what}}</h3>
-                    <p>{{item.notes}}</p>
+                <div flex ng-hide="vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].value == 'na'">
+                    <div class="gtcard">
+                        <h3 >{{timeDataHeader(vm.config.init + $index, vm.config.reservations)}}</h3>
+                        <p>Costo: {{vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].price | currency}},
+                            Tipo: {{vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].value }}</p>
+                    </div>
+                </div>
+                <div flex ng-show="vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].value == 'na'">
+                    <div class="gtcard" style="background-color: #eeeeee">
+                        <h3 >NO DISPONIBLE</h3>
+                        <p>-No disponible por configuración de costos de cancha-</p>
+                    </div>
                 </div>
             </div>
-          </div>
-        <md-button class="md-secondary">Respond</md-button>
+        </div>
+        <div class="gtbuttons">
+        <md-button
+                ng-show="!isFree(vm.config.init + $index, vm.config.reservations) && vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].value != 'na'"
+                class="md-secondary">Editar</md-button>
+        <md-button
+                ng-show="isFree(vm.config.init + $index, vm.config.reservations) && vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].value != 'na'"
+                class="md-secondary">Bloquear</md-button>
+        <md-button ng-click="vm.showDialog()"
+                ng-show="isFree(vm.config.init + $index, vm.config.reservations) && vm.config.day_pricing[vm.config.dayNumber-1].time_pricing[vm.config.init + $index].value != 'na'"
+                class="md-secondary">Reservar</md-button>
+        </div>
         <md-divider ng-if="!$last"></md-divider>
     </md-list-item>
 </md-list>

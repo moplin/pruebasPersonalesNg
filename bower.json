@@ -13,6 +13,8 @@
     "angular-aria": "~1.5.9",
     "angular-messages": "~1.5.9",
     "angular-material": "1.1.4",
-    "pouchdb": "^6.2.0"
+    "pouchdb": "^6.2.0",
+    "moment": "^2.18.1",
+    "angular-moment": "^1.0.1"
   }
 }

@@ -24,10 +24,31 @@ angular.module('myApp.localization', ['ngRoute'])
             var keys = Object.keys(vm.loc);
             console.log('dta.data',keys.length);
             angular.forEach(vm.loc, function(value, key) {
-                var x = LocalizationService.getLocalizationFiltered(value, vm.my_localization);
-                value['dist']=x;
+                var dst = LocalizationService.getLocalizationFiltered(value, vm.my_localization);
+                value['dist']=dst;
+                if (typeof vm.my_localization.alt === 'undefined'){
+                    value['alt']=0;
+                }
             });
             vm.loc = LocalizationService.getCleanByDistance(vm.loc, 3.0);
+            var keys2 = Object.keys(vm.loc);
+            console.log('dta.data',keys2.length);
+            console.log('vm.loc',vm.loc);
+        });
+
+        vm.products = [];
+        var prodsArr = [];
+        vm.city = 'Zona Sur: Cuenca y otros';
+        LocalizationService.getProds().then(function (dta) {
+            vm.products = dta.data;
+            var keys = Object.keys(vm.products);
+            angular.forEach(vm.products, function(value, key) {
+                if( value.city === vm.city ){
+                    prodsArr.push(value)
+                }
+            });
+            vm.products = prodsArr;
+            var keysX = Object.keys(vm.products);
         });
     }
     
@@ -35,19 +56,25 @@ angular.module('myApp.localization', ['ngRoute'])
         return {
             getLocalizationFiltered:getLocalizationFiltered,
             getLocalization:getLocalization,
-            getCleanByDistance:getCleanByDistance
+            getCleanByDistance:getCleanByDistance,
+            getProds:getProds
         };
 
         function getLocalization() {
             return $http.get('localization/loc.json');
         }
 
+
+        function getProds() {
+            return $http.get('localization/prods.json');
+        }
+
         function getCleanByDistance(obj, dist) {
             var newObj = {};
             angular.forEach(obj, function(value, key){
                 if(parseFloat(value.dist) < parseFloat(dist)){
-                    console.count();
-                    console.log(value);
+                    //console.count();
+                    //console.log(value);
                     newObj[key] = value;
                 }
             }); //153

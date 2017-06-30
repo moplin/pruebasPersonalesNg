@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
     'ngLodash',
+    //'angularMoment',
   'ngMaterial',
   'myApp.view1',
   'myApp.view2',

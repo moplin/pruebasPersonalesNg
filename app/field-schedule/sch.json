@@ -1,0 +1,1014 @@
+{
+  "schedules": [
+    {
+      "date": "2017-06-22",
+      "reservations": [
+        {
+          "id": "594ba27d1d41c83f9bfefcca",
+          "date": "2017-06-22",
+          "beginning_time": 8,
+          "ending_time": 9,
+          "active": true,
+          "canceled": false,
+          "private": false,
+          "reservation_owner": {
+            "id": "592371b51d41c823e4d24096",
+            "name": "User Syb8B@moplin.com",
+            "email": "syb8b@moplin.com",
+            "active": true,
+            "role": "SOCCER_PLAYER",
+            "profile": {
+              "first_name": "User",
+              "last_name": "Syb8B@moplin.com",
+              "phone": null,
+              "mobile": null,
+              "photo": "/photos/original/missing.png",
+              "photo_url": "https:/photos/original/missing.png",
+              "document_id": null,
+              "global_calification": null,
+              "number_of_played_games": null,
+              "number_of_owned_games": null
+            },
+            "user_settings": {
+              "app_notifications": true,
+              "email_me": true,
+              "notify_match_cancelation": true,
+              "notify_new_games": true,
+              "notify_promos": true,
+              "notify_remember_match": true
+            }
+          }
+        },
+        {
+          "id": "594ba2881d41c83f9bfefccb",
+          "date": "2017-06-22",
+          "beginning_time": 15,
+          "ending_time": 16,
+          "active": true,
+          "canceled": false,
+          "private": false,
+          "reservation_owner": {
+            "id": "592371b51d41c823e4d24096",
+            "name": "User Syb8B@moplin.com",
+            "email": "syb8b@moplin.com",
+            "active": true,
+            "role": "SOCCER_PLAYER",
+            "profile": {
+              "first_name": "User",
+              "last_name": "Syb8B@moplin.com",
+              "phone": null,
+              "mobile": null,
+              "photo": "/photos/original/missing.png",
+              "photo_url": "https:/photos/original/missing.png",
+              "document_id": null,
+              "global_calification": null,
+              "number_of_played_games": null,
+              "number_of_owned_games": null
+            },
+            "user_settings": {
+              "app_notifications": true,
+              "email_me": true,
+              "notify_match_cancelation": true,
+              "notify_new_games": true,
+              "notify_promos": true,
+              "notify_remember_match": true
+            }
+          }
+        }
+      ],
+      "sport_field": {
+        "id": "5946efd41d41c8a84b137def",
+        "name": "Cancha de prueba No E2Oil",
+        "capacity": 20,
+        "field_type": "Descubierta",
+        "terrain": "Parquet",
+        "illuminated": false,
+        "field_picture": "/field_pictures/original/missing.png",
+        "field_picture_url": "https:/field_pictures/original/missing.png",
+        "sport_complex": {
+          "id": "5946efc91d41c8a84b137deb",
+          "name": "Complejo E2Oil",
+          "description": "Este es el complejo E2Oil",
+          "country": "Ecuador",
+          "city": "Guayaquil",
+          "sector": "B",
+          "address": "En la a y la que E2Oil",
+          "phones": [
+            "0942432324324",
+            "0942432324325"
+          ],
+          "promo": "La promo del mes E2Oil",
+          "promoted": false,
+          "latLng": "-0.221994, -78.516002",
+          "complex_closes": "18:00",
+          "complex_opens": "08:00",
+          "logo": "/logos/original/missing.png",
+          "admin": {
+            "id": "5946efd01d41c8a84b137dec",
+            "name": "Administrador de E2Oil Complejo E2Oil}",
+            "email": "admin_complejo_e2oil@moplin.com",
+            "active": false,
+            "role": "COMPLEX_ADMIN",
+            "profile": {
+              "first_name": "Administrador de E2Oil",
+              "last_name": "Complejo E2Oil}",
+              "phone": "0288376543",
+              "mobile": "0945234234",
+              "photo": "/photos/original/missing.png",
+              "photo_url": "https:/photos/original/missing.png",
+              "document_id": "1712841800",
+              "global_calification": null,
+              "number_of_played_games": null,
+              "number_of_owned_games": null
+            },
+            "user_settings": {
+              "app_notifications": true,
+              "email_me": true,
+              "notify_match_cancelation": true,
+              "notify_new_games": true,
+              "notify_promos": true,
+              "notify_remember_match": true
+            }
+          }
+        },
+        "day_pricing": [
+          {
+            "day": "Monday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          },
+          {
+            "day": "Sunday",
+            "time_pricing": [
+              {
+                "hour": 0,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 1,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 2,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 3,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 4,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 5,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 6,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 7,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 8,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 9,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 10,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 11,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 12,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 13,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 14,
+                "price": 15,
+                "value": "aa"
+              },
+              {
+                "hour": 15,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 16,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 17,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 18,
+                "price": 20,
+                "value": "aaa"
+              },
+              {
+                "hour": 19,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 20,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 21,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 22,
+                "price": 0,
+                "value": "na"
+              },
+              {
+                "hour": 23,
+                "price": 0,
+                "value": "na"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
